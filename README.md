@@ -16,5 +16,11 @@ Download the detector model [here](http://dlib.net/files/shape_predictor_68_face
 > python facial_landmarks.py --shape-predictor shape_predictor_68_face_landmarks.dat --image <imagefilename>
 ```
 
+If you wish to output individual detections for facial landmarks (mouth, eyes, nose, jaw, left and right eyebrows):
+```
+> workon cv
+> python facial_landmarks.py --shape-predictor shape_predictor_68_face_landmarks.dat --image <imagefilename> --draw
+```
+
 or, run example with:
 > ./run.sh
